@@ -1,0 +1,15 @@
+.footer {
+    background-color: white;
+    color:  #8C1C13;
+    font-family: 'Noto Sans';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* font-weight: 300; */
+    /* font-size: smaller; */
+    width: 80%;
+    height: 2.5em;
+    border-radius: 15px 15px 0 0;
+
+}

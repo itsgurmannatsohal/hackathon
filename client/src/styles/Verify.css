@@ -1,0 +1,95 @@
+.body {
+    height: calc(100vh - 6em);
+    /* background-color: #1C2541; */
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card {
+    height: 90%;
+    width: 70%;
+    background-color: #ffffff;
+    color: black;
+    font-family: "Noto Sans";
+    /* font-weight: 400; */
+    /* padding: 0 2em; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    /* box-shadow: 0 0 3px 5px #d8kd9da9a; */
+    border: 1px solid #E7D7C1;
+    border-radius: 15px;
+    /* box-shadow: 0 0 3px 5px #d8d9da9a; */
+}
+.card h2{
+    margin-bottom: 1em;
+}
+#btn {
+    background-color:  #E7D7C1;
+    color: #8C1C13;
+    border: none;
+    border-radius: 15px;
+    padding: 1em 1.5em;
+    font-family: "Noto Sans";
+    /* font-weight: 600; */
+    margin: 1em 0;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#btn:hover{
+    text-decoration: underline;
+}
+#btn a{
+    color: #8C1C13;
+    text-decoration: none;
+}
+.left-side,.right-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* padding: 1em 1em; */
+}
+.right-side {
+    /* background-color: #E7D7C1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+}
+.left-side {
+    padding: 2em;
+}
+.right-side h1{
+    font-family: "Corben";
+    color: #8c1b13c4;
+    font-weight: 500;
+
+}
+.right-side p {
+    color: rgba(0, 0, 0, 0.588);
+    font-weight: 400;
+    font-family: "Noto Sans";
+}
+#submit-btn {
+    background-color: #E7D7C1;
+    color: #8C1C13;
+    width: 10em;
+}
+#check-btn {
+    width: 13.75em;
+    background-color: #E7D7C1;
+    border-radius: 15px;
+    color: #8C1C13;
+    margin-bottom: 1em;
+}

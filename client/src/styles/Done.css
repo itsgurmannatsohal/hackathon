@@ -1,0 +1,10 @@
+.verified {
+    color: green;
+    font-family: "Corbena";
+
+}
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
